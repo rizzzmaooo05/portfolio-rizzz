@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizzz.dev - Junior Full Stack Developer & Data Scientist</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <a class="header-title" href="/">
+          <img src="/assets/images/logo.jpg" alt="" />
+          <h2>Rizzz.Dev</h2>
+        </a>
+        <div class="hamburger-menu" onclick="handleClick()">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>MENU</p>
+        </div>
+      </div>
+      <nav class="menu-toogle">
+        <li><a href="/#home">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#resume">Resume</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#myblog">My Blog</a></li>
+        <li><a href="/#contacts">Contacts</a></li>
+      </nav>
+    </header>
+    <section class="home-section-container" id="home">
+      <div class="home-section-background">
+        <div></div>
+      </div>
+      <div class="home-section-wrapper">
+        <h3>HEY! I AM</h3>
+        <h1>Rizqon Maulana</h1>
+        <h2>I'm a <span></span></h2>
+      </div>
+    </section>
+    <section class="about-section" id="about">
+      <div class="profile-picture-wrapper">
+        <img src="/assets/images/profile-picture.png" alt="" />
+      </div>
+      <div class="about-section-wrapper">
+        <h1>About Me</h1>
+        <p>
+          A full stack developer & data scientist who gains experience from
+          courses, self-study, and working on projects.
+        </p>
+        <table>
+          <tr>
+            <td><b>Name</b></td>
+            <td>: </td>
+            <td>Rizqon Maulana</td>
+          </tr>
+          <tr>
+            <td><b>Date of Birth</b></td>
+            <td>: </td>
+            <td>December 5th, 2002</td>
+          </tr>
+          <tr>
+            <td><b>Address</b></td>
+            <td>: </td>
+            <td>Semarang, Central Java, Indonesia</td>
+          </tr>
+          <tr>
+            <td><b>Zip Code</b></td>
+            <td>: </td>
+            <td>50229</td>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>: </td>
+            <td>rizqonmaulana05@gmail.com</td>
+          </tr>
+          <tr>
+            <td><b>Phone</b></td>
+            <td>: </td>
+            <td>+62895801201195</td>
+          </tr>
+        </table>
+        <p>
+          <span class="n-project">120</span> Project Completed
+        </p>
+        <a href="/assets/files/cv.pdf">
+          <button>Download CV</button>
+        </a>
+      </div>
+    </section>
+    <section class="resume-section-container" id="resume">
+      <div class="resume-navigator">
+        <a href="/#education">Education</a>
+        <a href="/#experience">Experience</a>
+        <a href="/#skills">Skills</a>
+        <a href="/#awards">Awards</a>
+      </div>
+      <div class="resume-section">
+        hello world
+      </div>
+    </section>
+    <script>
+      // Typing Effect
+      const typed = new Typed(".home-section-wrapper > h2 > span", {
+        strings: ["Full Stack Developer.", "Data Scientist."],
+        typeSpeed: 100,
+        backSpeed: 20,
+        loop: true,
+      });
+    </script>
+    <script src="/assets/scripts/scripts.js"></script>
+  </body>
+</html>
